@@ -1,5 +1,6 @@
 SparkFun Micro OLED Breakout Arduino Library
 ========================================
+Trimmed down library, compatible with PlatformIO.
 
 ![SparkFun Micro OLED Breakout](https://cdn.sparkfun.com//assets/parts/9/9/5/6/OLED_Action.jpg)
 

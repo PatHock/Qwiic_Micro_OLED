@@ -17,16 +17,16 @@
  * 
  * Distributed as-is; no warranty is given.
  ******************************************************************************/
-#include <Wire.h>  // Include Wire if you're using I2C
-#include <SPI.h>  // Include SPI if you're using SPI
+//#include <Wire.h>  // Include Wire if you're using I2C
+//#include <SPI.h>  // Include SPI if you're using SPI
 #include <SFE_MicroOLED.h>  // Include the SFE_MicroOLED library
 
 //////////////////////////
 // MicroOLED Definition //
 //////////////////////////
-#define PIN_RESET 9  // Connect RST to pin 9
-#define PIN_DC    8  // Connect DC to pin 8
-#define PIN_CS    10 // Connect CS to pin 10
+#define PIN_RESET 14  // Connect RST to pin 9
+//#define PIN_DC    8  // Connect DC to pin 8
+//#define PIN_CS    10 // Connect CS to pin 10
 #define DC_JUMPER 0
 
 //////////////////////////////////
