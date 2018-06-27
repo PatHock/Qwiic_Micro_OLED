@@ -1,41 +1,46 @@
-SparkFun SparkFun Micro OLED Breakout (Qwiic)
+SparkFun Micro OLED Breakout Arduino Library
 ========================================
 
-![SparkFun Micro OLED Breakout (Qwiic)](https://cdn.sparkfun.com//assets/parts/1/2/6/2/1/14532-03.jpg)
+![SparkFun Micro OLED Breakout](https://cdn.sparkfun.com//assets/parts/9/9/5/6/OLED_Action.jpg)
 
-[*SparkFun Micro OLED Breakout (Qwiic) (LCD-14532)*](https://www.sparkfun.com/products/14532)
+[*SparkFun Micro OLED Breakout (LCD-13003)*](https://www.sparkfun.com/products/13003)
 
-The SparkFun Qwiic Micro OLED Breakout is a Qwiic-enabled version of our popular Micro OLED display! The small monochrome, blue-on-black OLED screen presents incredibly clear images for your viewing pleasure. 
+An Arduino library that allows you to draw shapes and text on the Micro OLED display.
 
 Repository Contents
 -------------------
 
-* **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the SparkFun Micro OLED Breakout (Qwiic)
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the SparkFun Micro OLED Breakout (Qwiic).
+* **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE.
+* * **/src** - Source files for the library (.cpp, .h).
+* **keywords.txt** - Keywords from this library that will be highlighted in the Arduino IDE.
+* **library.properties** - General library properties for the Arduino package manager.
 
 Documentation
 --------------
-* **[Library](https://github.com/sparkfun/Micro_OLED_Breakout)** - Latest Arduino library for the Micro OLED Breakout.
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-micro-oled-hookup-guide)** - Basic hookup guide for the SparkFun Micro OLED Breakout (Qwiic).
 
-Product Versions
-----------------
-* [LCD-14532](https://www.sparkfun.com/products/14532) - SparkFun Qwiic Micro OLED Breakout
-* [SPX-14269 (RETIRED)](https://www.sparkfun.com/products/14269) - SparkX Qwiic Micro OLED Breakout
+* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
+* **[Product Repository](https://github.com/sparkfun/Micro_OLED_Breakout)** - Main repository (including hardware files) for the Micro OLED Breakout.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/micro-oled-breakout-hookup-guide)** - Basic hookup guide for the Micro OLED Breakout.
+
+Products that use this Library
+---------------------------------
+
+* [Micro OLED Breakout](https://www.sparkfun.com/products/13003)- A breakout for the monochrome 64x48 OLED.
+
+Version History
+---------------
+* [v 1.1.2](https://github.com/sparkfun/SparkFun_Micro_OLED_Arduino_Library/tree/V_1.1.2) - Added compatibility for ESP8266
+* [v 1.1.1](https://github.com/sparkfun/SparkFun_Micro_OLED_Arduino_Library/tree/V_1.1.1) - Changed to remove register level pin access, for cross-platform compatibility
+* [v 1.1.0](https://github.com/sparkfun/SparkFun_Micro_OLED_Arduino_Library/tree/V_1.1.0) - Matching 1.6 standard
+* [V 1.0.0](https://github.com/sparkfun/SparkFun_Micro_OLED_Arduino_Library/tree/V_1.0.0) - Initial release
 
 License Information
 -------------------
 
-This product is _**open source**_! 
+This product is _**open source**_!
 
-Please review the LICENSE.md file for license information. 
-
-If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+The **code** is released under the GPL v3 license. See the included LICENSE.md for more information.
 
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
